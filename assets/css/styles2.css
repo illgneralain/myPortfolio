@@ -39,7 +39,17 @@ a.navbar-brand {
 #myContent {
     background-color: blue;
     height: 100%;
-    width: auto;
-    
+    width: 100%;
+    z-index: 1;
 }
+    
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
 
+  
+  
