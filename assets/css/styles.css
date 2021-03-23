@@ -1,3 +1,11 @@
+
+body, html {
+    background-color: thistle;
+    text-align: justify;
+    max-height: 100%;
+    width: 100%;
+}
+
 .main-page {
     height: 100%;
     width: 100%;
@@ -49,11 +57,4 @@
 #my-image {
     z-index: 1;
     position: relative;
-}
-
-body {
-    background-color: thistle;
-    text-align: justify;
-
-
 }

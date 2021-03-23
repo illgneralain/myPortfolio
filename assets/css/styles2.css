@@ -1,0 +1,45 @@
+body, html {
+    background-color: bisque;
+    height: 100%;
+    width: 100%;
+
+}
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+    display: inline-flexbox;
+}
+
+a.navbar-brand {
+    margin-left: 5px;
+}
+
+.main-layout {
+    height: 100%;
+    width: 100%;
+    display: inline-flexbox;
+    
+}
+
+.row{
+    display: inline-flexbox;
+    text-align: left;
+    margin: 0;
+}
+
+#sideNav {
+    background-color: red;
+    height: 100%;
+    width: 180px;
+    float: left;
+    position: relative;
+}
+
+#myContent {
+    background-color: blue;
+    height: 100%;
+    width: auto;
+    
+}
+
