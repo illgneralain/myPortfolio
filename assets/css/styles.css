@@ -1,26 +1,59 @@
 .main-page {
     height: 100%;
     width: 100%;
+    background-color: lemonchiffon;
 }
 
 .container-fluid {
     margin: 0;
     padding: 0;
+    background-color: lightgoldenrodyellow;
  }
 
+ .navbar-brand {
+     margin: 0;
+     padding: 0;
+    background-color: navajowhite;
+ }
 
 .sidenav {
     height: 100%; /* Full-height: remove this if you want "auto" height */
     width: 140px; /* Set the width of the sidebar */
-    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    position: absolute; /* Fixed Sidebar (stay in place on scroll) */
     left: 0;
-    background-color: #111; /* Black */
+    background-image: url(/assets/forestview.jpg); /* Black */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: -35px;
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 50px;
 }
 
 
+.resume-section-content {
+    padding-left: 10px;
+    margin-left: 45;
+    display: inline-flex;
+    background-color: mistyrose;
+}
+
+.main-section {
+
+    background-color: lightsteelblue;
+}
+
+.section {
+    background-color: wheat;
+}
+
 #my-image {
     z-index: 1;
     position: relative;
+}
+
+body {
+    background-color: thistle;
+    text-align: justify;
+
+
 }
