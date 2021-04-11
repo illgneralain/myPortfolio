@@ -24,7 +24,7 @@ body, html {
     border-top: solid 2px #aa9acc;
     box-sizing: content-box;
     clear: right;
-    color: #fff;
+    color: darkgrey;
     display: block;
     font-weight: normal;
     height: 700px;
@@ -43,7 +43,7 @@ body, html {
     border-top: solid 2px #aa9acc;
     box-sizing: content-box;
     clear: right;
-    color: #fff;
+    color: darkgrey;
     display: block;
     font-weight: normal;
     height: 700px;
