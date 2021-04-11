@@ -12,29 +12,35 @@ body, html {
     background-color: lemonchiffon;
 }
 
-.container-fluid {
-    margin: 0;
-    padding: 0;
+.aboutme {
     background-color: lightgoldenrodyellow;
+    border: 2px solid #aa9acc;
+    border-radius: 5px;
+    border-top: solid 2px #aa9acc;
+    box-sizing: content-box;
+    clear: right;
+    color: #fff;
+    display: block;
+    font-weight: normal;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    position: relative;
+    text-align: left;
+    width: 960px;
  }
 
- .navbar-brand {
-     margin: 0;
-     padding: 0;
-    background-color: navajowhite;
- }
 
-.sidenav {
-    height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 140px; /* Set the width of the sidebar */
-    position: absolute; /* Fixed Sidebar (stay in place on scroll) */
-    left: 0;
-    background-image: url(/assets/forestview.jpg); /* Black */
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: -35px;
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 50px;
+.nav-bar {
+    background-color: #fff;
+    border-bottom: 3px solid #6666;
+    float: right;
+  line-height: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+   width: 100%;
 }
 
 
