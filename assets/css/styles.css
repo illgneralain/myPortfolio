@@ -1,15 +1,20 @@
-
+/* First attempt at styling 
 body, html {
     background-color: thistle;
     text-align: justify;
     max-height: 100%;
     width: 100%;
-}
+} */
 
-.main-page {
-    height: 100%;
-    width: 100%;
-    background-color: lemonchiffon;
+.nav-bar {
+    background-color: #fff;
+    border-bottom: 3px solid #6666;
+    float: right;
+  line-height: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+   width: 100%;
 }
 
 .aboutme {
@@ -31,36 +36,84 @@ body, html {
     width: 960px;
  }
 
-
-.nav-bar {
-    background-color: #fff;
-    border-bottom: 3px solid #6666;
-    float: right;
-  line-height: 25px;
+.container {
+  background-color: lemonchiffon;
+    border: 2px solid #aa9acc;
+    border-radius: 5px;
+    border-top: solid 2px #aa9acc;
+    box-sizing: content-box;
+    clear: right;
+    color: #fff;
+    display: block;
+    font-weight: normal;
+    height: 700px;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
-   width: 100%;
+    padding: 10px;
+    position: relative;
+    text-align: left;
+    width: 960px;
 }
 
 
-.resume-section-content {
-    padding-left: 10px;
-    margin-left: 45;
-    display: inline-flex;
-    background-color: mistyrose;
-}
-
-.main-section {
-
-    background-color: lightsteelblue;
-}
-
-.section {
-    background-color: wheat;
-}
-
-#my-image {
-    z-index: 1;
+.image {
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
     position: relative;
 }
+
+#mycontent {
+    color: darkgrey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 20px 0px 20px;
+    position: relative;
+    text-align: left;
+}
+
+.footer {
+    background-color: lemonchiffon;
+      border-top: 8px solid #aa9acc;
+      bottom: 0;
+      color: #fff;
+      font-size: 10px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      margin: 0;
+      padding: 20px;
+      position: fixed;
+      text-align: cemter    ;
+      width: 100%;
+  }
+  
+
+  .form {
+    background-color: lemonchiffon;
+      border: 2px solid #aa9acc;
+      border-radius: 5px;
+      border-top: solid 2px #aa9acc;
+      box-sizing: content-box;
+      color: #fff;
+      display: block;
+      font-size: 14px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-weight: normal;
+      height: 650px;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 20px;
+      position: relative;
+      width: 960px;
+  }
+
+  h1 {
+      color: #aa9acc;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 20px 20px 0px 20px;
+  }
+  
